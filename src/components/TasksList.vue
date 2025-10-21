@@ -5,6 +5,7 @@
     <ul>
       <li v-for="(task,index) in tasks" :key="index">
         {{ task }}
+        <button @click="deleteTask">Delete</button>
       </li>
     </ul>
   </div>
@@ -19,6 +20,10 @@ const addTask = ()=>{
   tasks.value.push(newTask.value);
   newTask.value = '';
 }
+const deleteTask = (index)=>{
+  tasks.value.splice(index,1);
+}
+
 </script>
 
 <style></style>

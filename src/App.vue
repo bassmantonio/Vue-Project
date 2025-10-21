@@ -1,11 +1,10 @@
 <template>
-<counter></counter>
-<tasks-list></tasks-list>
+  <main-view></main-view>
 </template>
 
 <script setup>
-import Counter from './components/Counter.vue';
-import TasksList from './components/TasksList.vue';
+import MainView from './views/MainView.vue';
+
 
 </script>
 
