@@ -7,6 +7,7 @@
       <li><router-link to="/counter">Counter</router-link></li>
       <li><router-link to="/taskslist">Tasks List</router-link></li>
       <li><router-link to="/register">Registry</router-link></li>
+      <li><router-link to="/calculate">Calculate</router-link></li>
     </ul>
   </div>
 </template>
