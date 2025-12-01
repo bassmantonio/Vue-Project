@@ -1,5 +1,5 @@
 <template>
-  <h1>Hola Mundo</h1>
+  <h1>Counter</h1>
   <p>{{ counter }}</p>
   <button @click="increase">Increase</button>
   <br></br>

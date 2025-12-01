@@ -1,9 +1,10 @@
 <template>
   <div class="sidebar">
-    <h2>menú principal</h2>
+    <h2>Main Menu</h2>
     <ul>
       <li><router-link to="/counter">Counter</router-link></li>
-      <li><router-link to="/taskslist">Task List</router-link></li>
+      <li><router-link to="/taskslist">Tasks List</router-link></li>
+      <li><router-link to="/register">Registry</router-link></li>
     </ul>
   </div>
 </template>

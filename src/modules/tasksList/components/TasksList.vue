@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Lista de tareas</h2>
+    <h2>Tasks List</h2>
     <input type="text" v-model="newTask" @keyup.enter="addTask">
     <ul>
       <li v-for="(task,index) in tasks" :key="index">
